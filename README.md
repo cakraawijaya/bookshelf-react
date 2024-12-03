@@ -12,9 +12,11 @@
 ## Project Requirements
 | Part | Description |
 | --- | --- |
-| Features | Create, Read, Update, Delete, ETC |
-| Framework | Express; React (Mongoose, Cors, Morgan); Bootstrap 5 |
-| Tools | Visual Studio Code, MongoDB, Node.Js |
+| Features | • Create<br>• Read<br>• Update<br>• Delete<br>• ETC |
+| Packages | • Mongoose<br>• Cors<br>• Morgan |
+| Libraries | React.js |
+| Framework | • Express.js<br>• Bootstrap 5 |
+| Tools | • Visual Studio Code<br>• MongoDB<br>• Node.js |
 
 <br><br>
 

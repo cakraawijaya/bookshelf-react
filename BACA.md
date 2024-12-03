@@ -12,9 +12,11 @@
 ## Kebutuhan Proyek
 | Bagian |	Deskripsi |
 | --- | --- |
-| Fitur | Buat, Baca, Perbarui, Hapus, ETC |
-| Kerangka Kerja | Express; React (Mongoose, Cors, Morgan); Bootstrap 5 |
-| Peralatan | Visual Studio Code, MongoDB, Node.Js |
+| Fitur | • Buat<br>• Baca<br>• Perbarui<br>• Hapus<br>• ETC |
+| Paket | • Mongoose<br>• Cors<br>• Morgan |
+| Pustaka | React.js |
+| Kerangka Kerja | • Express.js<br>• Bootstrap 5 |
+| Peralatan | • Visual Studio Code<br>• MongoDB<br>• Node.js |
 
 <br><br>
 
