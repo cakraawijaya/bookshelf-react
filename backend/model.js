@@ -8,7 +8,7 @@ const BookSchema = new Schema(
         pengarang: { type: String, required: true },
         publikasi: { type: String, required: true },
     },
-    { collection: "katalogbuku" }
+    { collection: "catalog" }
 );
 
-module.exports = mongoose.model("BukuModel", BookSchema);
+module.exports = mongoose.model("BookModel", BookSchema);
