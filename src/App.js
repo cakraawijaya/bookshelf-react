@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import './App.css';
 import axios from "axios";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Navbar from "./layout/Navbar";
-import Beranda from "./menu/Beranda";
-import ManajemenBuku from './menu/ManajemenBuku';
-import Footer from "./layout/Footer";
+import Navbar from "./layout/navbar-layout";
+import Beranda from "./menu/home-page";
+import ManajemenBuku from './menu/management-page';
+import Footer from "./layout/footer-layout";
 
 function App() {
   const baseURL = "http://localhost:4000";
@@ -68,7 +68,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" exact element={ <Beranda /> } />
-        <Route path="/manajemenbuku" exact element={ <ManajemenBuku bookList={books} store={storeData} update={updateData} remove={deleteData} search={searchData} /> } />
+        <Route path="/manajemen-buku" exact element={ <ManajemenBuku bookList={books} store={storeData} update={updateData} remove={deleteData} search={searchData} /> } />
       </Routes>
       <Footer />
       </BrowserRouter>
