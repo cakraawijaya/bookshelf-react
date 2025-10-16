@@ -1,11 +1,11 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?style=flat)](https://github.com/ellerbrock/open-source-badges/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?logo=github&color=%23F7DF1E)](https://opensource.org/licenses/MIT)
-![GitHub last commit](https://img.shields.io/github/last-commit/cakraawijaya/perpusreact404?logo=Codeforces&logoColor=white&color=%23F7DF1E)
+![GitHub last commit](https://img.shields.io/github/last-commit/cakraawijaya/bookshelf-react?logo=Codeforces&logoColor=white&color=%23F7DF1E)
 ![Project](https://img.shields.io/badge/Project-Website-light.svg?style=flat&logo=googlechrome&logoColor=white&color=%23F7DF1E)
 ![Type](https://img.shields.io/badge/Type-Course-light.svg?style=flat&logo=gitbook&logoColor=white&color=%23F7DF1E)
 
-# PerpusReact404
-<p>PerpusReact404 is the result of the regular CAMP404 Batch 16 training that I did custom.</p>
+# Bookshelf-React
+<p>Bookshelf-React is the result of the regular CAMP404 Batch 16 training that I did custom.</p>
 
 <br><br>
 
@@ -17,6 +17,7 @@
 | Libraries | React.js |
 | Framework | • Express.js<br>• Bootstrap 5 |
 | Tools | • Visual Studio Code<br>• MongoDB<br>• Node.js |
+| VS Code Extensions | Prettier |
 
 <br><br>
 
@@ -49,14 +50,6 @@
    https://bit.ly/MongoDB_Installer
    ```
 
-   </td></tr></table><br>
-   
-4. Visual Studio Code Extensions
-
-   <table><tr><td width="810">
-
-   ``` Prettier ```   
-
    </td></tr></table>
 
 <br><br>
@@ -74,7 +67,7 @@
       <img src="documentation/Create Database MongoDB.jpg" alt="create-db-collection">
    </td></tr></table><br>
 
-3. ``` Add Data ``` -> ``` Import JSON or CSV File ``` -> Look for the file called ``` db_perpusreact404.katalogbuku.json ```, it is located in the ``` perpusreact404/public/DB ``` directory.<br>
+3. ``` Add Data ``` -> ``` Import JSON or CSV File ``` -> Look for the file called ``` db_bookshelf_react.json ```, it is located in the ``` bookshelf-react/public/database ``` directory.<br>
 
    <table><tr><td width="810">
       <img src="documentation/Import JSON MongoDB.jpg" alt="import-json-db">
@@ -97,7 +90,7 @@
 ## Get Started
 1. Download and extract this repository.<br><br>
    
-2. Open the ``` perpusreact404 ``` directory, then open ``` CMD ``` inside the directory. To start the ``` web server ```, you are required to type the following command:
+2. Open the ``` bookshelf-react ``` directory, then open ``` CMD ``` inside the directory. To start the ``` web server ```, you are required to type the following command:
 
    <table><tr><td width="810">
 
