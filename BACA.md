@@ -207,21 +207,19 @@
 </table>
 <table>
 <tr>
-<th width="210">Buat</th>
-<th width="210">Baca</th>
-<th width="210">Ubah</th>
-<th width="210">Hapus</th>
+<th width="280">Tambah Buku</th>
+<th width="280">Ubah Buku</th>
+<th width="280">Hapus Buku</th>
 </tr>
 <tr>
-<td><img src="documentation/Create.jpg" alt="create-data"></td>
-<td><img src="documentation/Read.jpg" alt="read-data"></td>
-<td><img src="documentation/Update.jpg" alt="update-data"></td>
-<td><img src="documentation/Delete.jpg" alt="delete-data"></td>
+<td><img src="documentation/Add Book.jpg" alt="add-book"></td>
+<td><img src="documentation/Update Book.jpg" alt="update-book"></td>
+<td><img src="documentation/Delete Book.jpg" alt="delete-book"></td>
 </tr>
 </table>
 <table>
 <tr>
-<th width="840">Cari</th>
+<th width="840"Pencarian</th>
 </tr>
 <tr>
 <td><img src="documentation/Search.jpg" alt="search"></td>
