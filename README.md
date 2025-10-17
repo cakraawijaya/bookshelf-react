@@ -71,48 +71,75 @@
 
    <table><tr><td width="810">
       <img src="documentation/Import JSON MongoDB.jpg" alt="import-json-db">
-   </td></tr></table><br>
-
-4. Open the ``` backend ``` directory -> Open ``` CMD ``` inside the directory -> Type as below:
-
-   <table><tr><td width="810">
-
-   ````bash
-   npx nodemon server.js
-   ````
-
-   <img src="documentation/Open Backend CMD.jpg" alt="npx_nodemon_server_js"> 
-
    </td></tr></table>
 
 <br><br>
 
 ## Get Started
-1. Download and extract this repository.<br><br>
-   
-2. Open the ``` bookshelf-react ``` directory, then open ``` CMD ``` inside the directory. To start the ``` web server ```, you are required to type the following command:
-
+1. Open ``` Terminal ```, then create a new project:<br>
    <table><tr><td width="810">
-
-   ````bash
-   npm start
-   ````
-
-   <img width="840" height="340" src="documentation/NPM Start.jpg" alt="npm-start">   
-
-   </td></tr></table><br>
-
-3. Please access the features and enjoy [Done].
+      
+   ```bash
+   npx create-react-app bookshelf-react
+   ```
+   
+   </td></tr></table>
+   <br>
+2. Download and extract this repository.<br><br>
+3. Copy the directories: ``` backend ```, ``` public ```, and ``` src ```.<br><br>
+4. Copy the files: ``` BACA.md ```, ``` README.md ```, ``` License.txt ```, ``` package-lock.json ```, and ``` package.json ```.<br><br>
+5. Paste and Replace into the ``` bookshelf-react ``` directory.<br><br>
+6. Open ``` Terminal ``` inside that directory.<br><br>
+7. Install ``` bootstrap ``` to manage the appearance (layout):<br>
+   <table><tr><td width="810">
+      
+   ```bash
+   npm install bootstrap
+   ```
+   
+   </td></tr></table>
+   <br>
+8. Install ``` bootstrap-icons ``` for icons:<br>
+    <table><tr><td width="810">
+      
+    ```bash
+    npm install bootstrap-icons
+    ```
+   
+    </td></tr></table>
+    <br>
+9. Install ``` vue-router ``` to manage page routes:<br>
+    <table><tr><td width="810">
+      
+    ```bash
+    npm install react-router-dom
+    ```
+   
+    </td></tr></table>
+    <br>
+10. To run the web, type the command:<br>
+    <table><tr><td width="810">
+      
+    ```bash
+    npm start
+    ```
+   
+    </td></tr></table>
+    <br>
+11. Open your browser, then type -> ``` http://localhost:3000/ ```.<br><br>
+12. Please access the features and enjoy [Done].
 
 <br><br>
 
 ## Highlights
 <table>
 <tr>
-<th width="840">Home</th>
+<th width="420">Home</th>
+<th width="420">Catalog</th>
 </tr>
 <tr>
 <td><img src="documentation/Home.jpg" alt="home"></td>
+<td><img src="documentation/Catalog.jpg" alt="catalog"></td>
 </tr>
 </table>
 <table>
