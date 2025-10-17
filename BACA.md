@@ -5,7 +5,7 @@
 ![Type](https://img.shields.io/badge/Type-Course-light.svg?style=flat&logo=gitbook&logoColor=white&color=%23F7DF1E)
 
 # Bookshelf-React
-<p>Bookshelf-React aplikasi perpustakaan digital berbasis React.js yang memiliki fitur manajemen buku dan tampilan katalog.</p>
+<p>Bookshelf-React adalah aplikasi perpustakaan digital berbasis React.js yang memiliki fitur manajemen buku dan tampilan katalog.</p>
 
 <br><br>
 
