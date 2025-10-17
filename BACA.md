@@ -197,17 +197,19 @@
 ## Sorotan
 <table>
 <tr>
-<th width="840">Beranda</th>
+<th width="420">Beranda</th>
+<th width="420">Katalog</th>
 </tr>
 <tr>
 <td><img src="documentation/Home.jpg" alt="home"></td>
+<td><img src="documentation/Catalog.jpg" alt="catalog"></td>
 </tr>
 </table>
 <table>
 <tr>
 <th width="210">Buat</th>
 <th width="210">Baca</th>
-<th width="210">Perbarui</th>
+<th width="210">Ubah</th>
 <th width="210">Hapus</th>
 </tr>
 <tr>
@@ -219,7 +221,7 @@
 </table>
 <table>
 <tr>
-<th width="840">Pencarian</th>
+<th width="840">Cari</th>
 </tr>
 <tr>
 <td><img src="documentation/Search.jpg" alt="search"></td>
