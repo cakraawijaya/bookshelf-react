@@ -5,7 +5,7 @@
 ![Type](https://img.shields.io/badge/Type-Course-light.svg?style=flat&logo=gitbook&logoColor=white&color=%23F7DF1E)
 
 # Bookshelf-React
-<p>Bookshelf-React is the result of the regular CAMP404 Batch 16 training that I did custom.</p>
+<p>Bookshelf-React is a React.js-based digital library application that features book management and catalog display.</p>
 
 <br><br>
 
@@ -140,18 +140,13 @@
 
 <br><br>
 
-## Reminder
-Disadvantages: There are still bugs in the data search section.
-
-<br><br>
-
 ## Appreciation
 If this work is useful to you, then support this work as a form of appreciation to the author by clicking the ``` ⭐Star ``` button at the top of the repository.
 
 <br><br>
 
 ## Disclaimer
-This application is my own work and is not the result of plagiarism from other people's research or work, except those related to third party services which include: libraries, frameworks, and so on.
+This application is the result of the development of the CAMP404 Course. I do not deny that I still use third-party services in this work, including: libraries, frameworks, and so on.
 
 <br><br>
 
