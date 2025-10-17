@@ -108,7 +108,7 @@
    
     </td></tr></table>
     <br>
-9. Install ``` vue-router ``` to manage page routes:<br>
+9. Install ``` react-router-dom ``` to manage page routes:<br>
     <table><tr><td width="810">
       
     ```bash
@@ -117,7 +117,52 @@
    
     </td></tr></table>
     <br>
-10. To run the web, type the command:<br>
+10. Install ``` axios ``` to make a request to the backend/API:<br>
+    <table><tr><td width="810">
+      
+    ```bash
+    npm install axios
+    ```
+   
+    </td></tr></table>
+    <br>
+11. Install ``` express ``` to make a backend server:<br>
+    <table><tr><td width="810">
+      
+    ```bash
+    npm install express
+    ```
+   
+    </td></tr></table>
+    <br>
+12. Install ``` mongoose ``` to connect the backend to MongoDB:<br>
+    <table><tr><td width="810">
+      
+    ```bash
+    npm install mongoose
+    ```
+   
+    </td></tr></table>
+    <br>
+13. Install ``` cors ``` for communication between the frontend and backend even though they have different ports or domains:<br>
+    <table><tr><td width="810">
+      
+    ```bash
+    npm install cors
+    ```
+   
+    </td></tr></table>
+    <br>
+14. Install ``` morgan ``` to display the HTTP request log in the terminal (useful for debugging):<br>
+    <table><tr><td width="810">
+      
+    ```bash
+    npm install morgan
+    ```
+   
+    </td></tr></table>
+    <br>
+15. To run the web, type the command:<br>
     <table><tr><td width="810">
       
     ```bash
@@ -126,8 +171,8 @@
    
     </td></tr></table>
     <br>
-11. Open your browser, then type -> ``` http://localhost:3000/ ```.<br><br>
-12. Please access the features and enjoy [Done].
+16. Open your browser, then type -> ``` http://localhost:3000/ ```.<br><br>
+17. Please access the features and enjoy [Done].
 
 <br><br>
 
