@@ -162,7 +162,25 @@
    
     </td></tr></table>
     <br>
-15. To run the web, type the command:<br>
+15. Install ``` nodemon ``` to automatically restart the server during the development process:<br>
+    <table><tr><td width="810">
+      
+    ```bash
+    npm install --save-dev nodemon
+    ```
+   
+    </td></tr></table>
+    <br>
+16. Install ``` concurrently ``` to run multiple scripts simultaneously in the terminal:<br>
+    <table><tr><td width="810">
+      
+    ```bash
+    npm install --save-dev concurrently
+    ```
+   
+    </td></tr></table>
+    <br>
+17. To run the web, type the command:<br>
     <table><tr><td width="810">
       
     ```bash
@@ -171,8 +189,8 @@
    
     </td></tr></table>
     <br>
-16. Open your browser, then type -> ``` http://localhost:3000/ ```.<br><br>
-17. Please access the features and enjoy [Done].
+18. Open your browser, then type -> ``` http://localhost:3000/ ```.<br><br>
+19. Please access the features and enjoy [Done].
 
 <br><br>
 
