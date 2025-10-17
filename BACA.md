@@ -12,7 +12,7 @@
 ## Kebutuhan Proyek
 | Bagian |	Deskripsi |
 | --- | --- |
-| Fitur | • Buat<br>• Baca<br>• Perbarui<br>• Hapus<br>• ETC |
+| Fitur | • Buat<br>• Baca<br>• Ubah<br>• Hapus<br>• Cari |
 | Paket | • Mongoose<br>• Cors<br>• Morgan |
 | Pustaka | React.js |
 | Kerangka Kerja | • Express.js<br>• Bootstrap 5 |
@@ -71,18 +71,6 @@
 
    <table><tr><td width="810">
       <img src="documentation/Import JSON MongoDB.jpg" alt="import-json-db">
-   </td></tr></table><br>
-
-4. Buka direktori ``` backend ``` -> Buka ``` CMD ``` di dalam direktori tersebut -> Ketik seperti di bawah ini:
-
-   <table><tr><td width="810">
-
-   ````bash
-   npx nodemon server.js
-   ````
-
-   <img src="documentation/Open Backend CMD.jpg" alt="npx_nodemon_server_js"> 
-
    </td></tr></table>
 
 <br><br>
