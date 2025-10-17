@@ -12,7 +12,7 @@
 ## Project Requirements
 | Part | Description |
 | --- | --- |
-| Features | • Create<br>• Read<br>• Update<br>• Delete<br>• ETC |
+| Features | • Create<br>• Read<br>• Update<br>• Delete<br>• Search |
 | Packages | • Mongoose<br>• Cors<br>• Morgan |
 | Libraries | React.js |
 | Framework | • Express.js<br>• Bootstrap 5 |
