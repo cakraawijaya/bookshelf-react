@@ -87,7 +87,7 @@
    <br>
 2. Download and extract this repository.<br><br>
 3. Copy the directories: ``` backend ```, ``` public ```, and ``` src ```.<br><br>
-4. Copy the files: ``` BACA.md ```, ``` README.md ```, ``` License.txt ```, ``` package-lock.json ```, and ``` package.json ```.<br><br>
+4. Copy the files: ``` BACA.md ```, ``` README.md ```, ``` LICENSE.txt ```, ``` package-lock.json ```, and ``` package.json ```.<br><br>
 5. Paste and Replace into the ``` bookshelf-react ``` directory.<br><br>
 6. Open ``` Terminal ``` inside that directory.<br><br>
 7. Install ``` bootstrap ``` to manage the appearance (layout):<br>
@@ -117,7 +117,7 @@
    
     </td></tr></table>
     <br>
-10. Install ``` axios ``` to make a request to the backend/API:<br>
+10. Install ``` axios ``` to be able to make requests to the backend / API:<br>
     <table><tr><td width="810">
       
     ```bash
