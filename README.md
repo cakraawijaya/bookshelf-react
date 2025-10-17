@@ -162,7 +162,7 @@
    
     </td></tr></table>
     <br>
-15. Install ``` nodemon ``` to automatically restart the server during the development process:<br>
+15. Install ``` nodemon ``` to restart the server automatically:<br>
     <table><tr><td width="810">
       
     ```bash
