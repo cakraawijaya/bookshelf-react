@@ -207,16 +207,14 @@
 </table>
 <table>
 <tr>
-<th width="210">Create</th>
-<th width="210">Read</th>
-<th width="210">Update</th>
-<th width="210">Delete</th>
+<th width="280">Add Book</th>
+<th width="280">Edit Book</th>
+<th width="280">Delete Book</th>
 </tr>
 <tr>
-<td><img src="documentation/Create.jpg" alt="create-data"></td>
-<td><img src="documentation/Read.jpg" alt="read-data"></td>
-<td><img src="documentation/Update.jpg" alt="update-data"></td>
-<td><img src="documentation/Delete.jpg" alt="delete-data"></td>
+<td><img src="documentation/Add Book.jpg" alt="add-book"></td>
+<td><img src="documentation/Update Book.jpg" alt="update-book"></td>
+<td><img src="documentation/Delete Book.jpg" alt="delete-book"></td>
 </tr>
 </table>
 <table>
