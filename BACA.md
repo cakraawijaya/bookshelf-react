@@ -76,21 +76,121 @@
 <br><br>
 
 ## Memulai
-1. Unduh dan ekstrak repositori ini.<br><br>
-   
-2. Buka direktori ``` bookshelf-react ```, lalu buka ``` CMD ``` di dalam direktori tersebut. Untuk memulai ``` server web ```, anda harus mengetikkan perintah berikut:
-
+1. Buka ``` Terminal ```, lalu buat proyek baru:<br>
    <table><tr><td width="810">
-
-   ````bash
-   npm start
-   ````
-
-   <img width="840" height="340" src="documentation/NPM Start.jpg" alt="npm-start">   
-
-   </td></tr></table><br>
-
-3. Silakan akses fitur-fitur tersebut dan nikmatilah [Selesai].
+      
+   ```bash
+   npx create-react-app bookshelf-react
+   ```
+   
+   </td></tr></table>
+   <br>
+2. Unduh dan ekstrak repositori ini.<br><br>
+3. Salin direktori: ``` backend ```, ``` public ```, dan ``` src ```.<br><br>
+4. Salin berkas: ``` BACA.md ```, ``` README.md ```, ``` LICENSE.txt ```, ``` package-lock.json ```, dan ``` package.json ```.<br><br>
+5. Tempel dan Timpa ke dalam direktori ``` bookshelf-react ```.<br><br>
+6. Buka ``` Terminal ``` di dalam direktori tersebut.<br><br>
+7. Instal ``` bootstrap ``` untuk mengatur tampilan (layout):<br>
+   <table><tr><td width="810">
+      
+   ```bash
+   npm install bootstrap
+   ```
+   
+   </td></tr></table>
+   <br>
+8. Instal ``` bootstrap-icons ``` untuk ikon:<br>
+    <table><tr><td width="810">
+      
+    ```bash
+    npm install bootstrap-icons
+    ```
+   
+    </td></tr></table>
+    <br>
+9. Instal ``` react-router-dom ``` untuk mengatur rute halaman:<br>
+    <table><tr><td width="810">
+      
+    ```bash
+    npm install react-router-dom
+    ```
+   
+    </td></tr></table>
+    <br>
+10. Instal ``` axios ``` untuk dapat melakukan permintaan ke backend / API:<br>
+    <table><tr><td width="810">
+      
+    ```bash
+    npm install axios
+    ```
+   
+    </td></tr></table>
+    <br>
+11. Instal ``` express ``` untuk membuat server backend:<br>
+    <table><tr><td width="810">
+      
+    ```bash
+    npm install express
+    ```
+   
+    </td></tr></table>
+    <br>
+12. Instal ``` mongoose ``` untuk menghubungkan backend ke MongoDB:<br>
+    <table><tr><td width="810">
+      
+    ```bash
+    npm install mongoose
+    ```
+   
+    </td></tr></table>
+    <br>
+13. Instal ``` cors ``` untuk mengaktifkan komunikasi antara frontend dan backend melalui port atau domain yang berbeda:<br>
+    <table><tr><td width="810">
+      
+    ```bash
+    npm install cors
+    ```
+   
+    </td></tr></table>
+    <br>
+14. Instal ``` morgan ``` untuk menampilkan log permintaan HTTP di terminal (berguna untuk debugging):<br>
+    <table><tr><td width="810">
+      
+    ```bash
+    npm install morgan
+    ```
+   
+    </td></tr></table>
+    <br>
+15. Instal ``` nodemon ``` untuk me-restart server secara otomatis:<br>
+    <table><tr><td width="810">
+      
+    ```bash
+    npm install --save-dev nodemon
+    ```
+   
+    </td></tr></table>
+    <br>
+16. Instal ``` concurrently ``` untuk menjalankan beberapa skrip secara bersamaan di terminal:<br>
+    <table><tr><td width="810">
+      
+    ```bash
+    npm install --save-dev concurrently
+    ```
+   
+    </td></tr></table>
+    <br>
+17. Untuk menjalankan web, ketikan perintah:<br>
+    <table><tr><td width="810">
+      
+    ```bash
+    npm start
+    ```
+   
+    </td></tr></table>
+    <br>
+18. Buka peramban anda, lalu ketik -> ``` http://localhost:3000/ ```.<br><br>
+19. Silakan akses fitur-fiturnya dan nikmatilah [Selesai].
 
 <br><br>
 
