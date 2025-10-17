@@ -219,7 +219,7 @@
 </table>
 <table>
 <tr>
-<th width="840"Pencarian</th>
+<th width="840">Pencarian</th>
 </tr>
 <tr>
 <td><img src="documentation/Search.jpg" alt="search"></td>
