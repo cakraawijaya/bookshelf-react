@@ -144,7 +144,7 @@
    
     </td></tr></table>
     <br>
-13. Install ``` cors ``` for communication between the frontend and backend even though they have different ports or domains:<br>
+13. Install ``` cors ``` to enable communication between frontend and backend across different ports or domains:<br>
     <table><tr><td width="810">
       
     ```bash
