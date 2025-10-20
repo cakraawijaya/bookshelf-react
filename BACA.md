@@ -55,22 +55,40 @@
 <br><br>
 
 ## Basis Data
-1. Buatlah ``` koneksi ``` di ``` MongoDB ``` seperti yang ditunjukkan pada gambar berikut:
+1. Buka aplikasi ``` MongoDB ```, lalu klik tombol ``` Add new connection ```.
    
    <table><tr><td width="810">   
-      <img src="documentation/Create Connection MongoDB.jpg" alt="create-connection">
+      <img src="documentation/Add Connection Part 1.jpg" alt="add-connection-part1">
    </td></tr></table><br>
 
-2. Buatlah ``` database ``` dan ``` koleksi ``` seperti yang ditunjukkan pada gambar di bawah ini:
+2. Buat koneksi dengan nama apa pun (bebas), misalnya seperti yang ditunjukkan pada gambar berikut:
+   
+   <table><tr><td width="810">   
+      <img src="documentation/Add Connection Part 2.jpg" alt="add-connection-part2">
+   </td></tr></table><br>
+
+3. Klik tombol ``` Create database ```.
+   
+   <table><tr><td width="810">   
+      <img src="documentation/Create Database Part 1.jpg" alt="create-database-part1">
+   </td></tr></table><br>
+
+4. Silakan beri nama ``` database ``` dan ``` collection ``` sebagai berikut:
    
    <table><tr><td width="810">
-      <img src="documentation/Create Database MongoDB.jpg" alt="create-db-collection">
+      <img src="documentation/Create Database Part 2.jpg" alt="create-database-part2">
    </td></tr></table><br>
 
-3. ``` Add Data ``` -> ``` Import JSON or CSV File ``` -> Cari berkas yang bernama ``` db_bookshelf_react ```, berkas ini terletak di direktori ``` bookshelf-react/public/database ```.<br>
+5. Klik tombol ``` Import data ```.
+   
+   <table><tr><td width="810">   
+      <img src="documentation/Import Data Part 1.jpg" alt="import-data-part1">
+   </td></tr></table><br>
+
+6. Cari berkas yang bernama ``` db_bookshelf_react.catalog.json ```, berkas ini terletak di direktori ``` bookshelf-react/public/database ```.<br>
 
    <table><tr><td width="810">
-      <img src="documentation/Import JSON MongoDB.jpg" alt="import-json-db">
+      <img src="documentation/Import Data Part 2.jpg" alt="import-data-part2">
    </td></tr></table>
 
 <br><br>

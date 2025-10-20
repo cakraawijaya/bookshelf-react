@@ -55,22 +55,41 @@
 <br><br>
 
 ## Database
-1. Create a ``` connection ``` in ``` MongoDB ``` as shown in the following image:
+1. Open the ``` MongoDB ``` application, then click the ``` Add new connection ``` button.
    
    <table><tr><td width="810">   
-      <img src="documentation/Create Connection MongoDB.jpg" alt="create-connection">
+      <img src="documentation/Add Connection Part 1.jpg" alt="add-connection-part1">
    </td></tr></table><br>
 
-2. Create a ``` database ``` and ``` collection ``` as shown in the image below:
+2. Create a connection with any name (free), for example as shown in the following image:
+   
+   <table><tr><td width="810">   
+      <img src="documentation/Add Connection MongoDB.jpg" alt="add-connection-part2">
+   </td></tr></table><br>
+
+3. Click the ``` Create database ``` button.
+   
+   <table><tr><td width="810">   
+      <img src="documentation/Create Database Part 1.jpg" alt="create-database-part1">
+   </td></tr></table><br>
+
+
+4. Please name the ``` database ``` and ``` collection ``` as follows:
    
    <table><tr><td width="810">
-      <img src="documentation/Create Database MongoDB.jpg" alt="create-db-collection">
+      <img src="documentation/Create Database Part 2.jpg" alt="create-database-part2">
    </td></tr></table><br>
 
-3. ``` Add Data ``` -> ``` Import JSON or CSV File ``` -> Look for the file called ``` db_bookshelf_react.json ```, it is located in the ``` bookshelf-react/public/database ``` directory.<br>
+5. Click the ``` Import data ``` button.
+   
+   <table><tr><td width="810">   
+      <img src="documentation/Import Data Part 1.jpg" alt="import-data-part1">
+   </td></tr></table><br>
+
+6. Look for the file called ``` db_bookshelf_react.catalog.json ```, it is located in the ``` bookshelf-react/public/database ``` directory.<br>
 
    <table><tr><td width="810">
-      <img src="documentation/Import JSON MongoDB.jpg" alt="import-json-db">
+      <img src="documentation/Import Data Part 2.jpg" alt="import-data-part2">
    </td></tr></table>
 
 <br><br>
