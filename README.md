@@ -106,7 +106,7 @@
    <br>
 2. Download and extract this repository.<br><br>
 3. Copy the directories: ``` backend ```, ``` public ```, and ``` src ```.<br><br>
-4. Copy the files: ``` BACA.md ```, ``` README.md ```, ``` LICENSE.txt ```, ``` package-lock.json ```, and ``` package.json ```.<br><br>
+4. Copy the files: ``` BACA.md ```, ``` README.md ```, and ``` LICENSE.txt ```.<br><br>
 5. Paste and Replace into the ``` bookshelf-react ``` directory.<br><br>
 6. Open ``` Terminal ``` inside that directory.<br><br>
 7. Install ``` bootstrap ``` to manage the appearance (layout):<br>
@@ -199,7 +199,23 @@
    
     </td></tr></table>
     <br>
-17. To run the web, type the command:<br>
+17. Open ``` package.json ```, then change the ``` scripts ``` section to look like this:<br>
+    <table><tr><td width="810">
+      
+    ```bash
+    "scripts": {
+      "server": "nodemon --quiet backend/server.js",
+      "react": "react-scripts start",
+      "start": "concurrently --names \"BACKEND,FRONTEND\" --prefix name \"npm run server\" \"npm run react\"",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    ```
+   
+    </td></tr></table>
+    <br>
+18. To run the web, type the command:<br>
     <table><tr><td width="810">
       
     ```bash
@@ -208,8 +224,8 @@
    
     </td></tr></table>
     <br>
-18. Open your browser, then type -> ``` http://localhost:3000/ ```.<br><br>
-19. Please access the features and enjoy [Done].
+19. Open your browser, then type -> ``` http://localhost:3000/ ```.<br><br>
+20. Please access the features and enjoy [Done].
 
 <br><br>
 

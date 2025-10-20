@@ -105,7 +105,7 @@
    <br>
 2. Unduh dan ekstrak repositori ini.<br><br>
 3. Salin direktori: ``` backend ```, ``` public ```, dan ``` src ```.<br><br>
-4. Salin berkas: ``` BACA.md ```, ``` README.md ```, ``` LICENSE.txt ```, ``` package-lock.json ```, dan ``` package.json ```.<br><br>
+4. Salin berkas: ``` BACA.md ```, ``` README.md ```, dan ``` LICENSE.txt ```.<br><br>
 5. Tempel dan Timpa ke dalam direktori ``` bookshelf-react ```.<br><br>
 6. Buka ``` Terminal ``` di dalam direktori tersebut.<br><br>
 7. Instal ``` bootstrap ``` untuk mengatur tampilan (layout):<br>
@@ -198,7 +198,23 @@
    
     </td></tr></table>
     <br>
-17. Untuk menjalankan web, ketikan perintah:<br>
+17. Buka ``` package.json ```, lalu ubah bagian ``` scripts ``` menjadi seperti ini:<br>
+    <table><tr><td width="810">
+      
+    ```bash
+    "scripts": {
+      "server": "nodemon --quiet backend/server.js",
+      "react": "react-scripts start",
+      "start": "concurrently --names \"BACKEND,FRONTEND\" --prefix name \"npm run server\" \"npm run react\"",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    ```
+   
+    </td></tr></table>
+    <br>
+18. Untuk menjalankan web, ketikan perintah:<br>
     <table><tr><td width="810">
       
     ```bash
@@ -207,8 +223,8 @@
    
     </td></tr></table>
     <br>
-18. Buka peramban anda, lalu ketik -> ``` http://localhost:3000/ ```.<br><br>
-19. Silakan akses fitur-fiturnya dan nikmatilah [Selesai].
+19. Buka peramban anda, lalu ketik -> ``` http://localhost:3000/ ```.<br><br>
+20. Silakan akses fitur-fiturnya dan nikmatilah [Selesai].
 
 <br><br>
 
