@@ -1,44 +1,42 @@
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
 
 function Navbar() {
+    const [isOpen, setIsOpen] = useState(false);
     const Logo = process.env.PUBLIC_URL + '/favicon/favicon-16x16.png';
 
     return (
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid d-flex align-items-center">
-            
-                <Link class="navbar-brand d-flex align-items-center user-select-none" href="#">
-                    <img src={ Logo } alt="Logo" class="logo me-2"/>
-                    <span class="brand-text">Bookshelf-React</span>
+        <nav className="navbar navbar-expand-lg">
+            <div className="container-fluid d-flex align-items-center">
+
+                <Link className="navbar-brand d-flex align-items-center user-select-none" to="/">
+                    <img src={Logo} alt="Logo" className="logo me-2"/>
+                    <span className="brand-text">Bookshelf-React</span>
                 </Link>
 
                 <button
-                    class="navbar-toggler custom-toggler user-select-none"
+                    className="navbar-toggler custom-toggler user-select-none"
                     type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarNav"
-                    aria-controls="navbarNav"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
+                    onClick={() => setIsOpen(!isOpen)}
                 >
-                    <span class="navbar-toggler-icon"></span>
+                    <span className="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse user-select-none" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <Link to="/" class="nav-link" aria-current="page">
-                                <i class="bi bi-house-fill me-1"></i>Beranda
+                <div className={`collapse navbar-collapse user-select-none ${isOpen ? 'show' : ''}`} id="navbarNav">
+                    <ul className="navbar-nav">
+                        <li className="nav-item">
+                            <Link to="/" className="nav-link" aria-current="page">
+                                <i className="bi bi-house-fill me-1"></i>Beranda
                             </Link>
                         </li>
-                        <li class="nav-item">
-                            <Link to="/katalog" class="nav-link" aria-current="page">
-                                <i class="bi bi-journal-bookmark-fill me-1"></i>Katalog
+                        <li className="nav-item">
+                            <Link to="/katalog" className="nav-link">
+                                <i className="bi bi-journal-bookmark-fill me-1"></i>Katalog
                             </Link>
                         </li>
-                        <li class="nav-item">
-                            <Link to="/manajemen-buku" class="nav-link" aria-current="page">
-                                <i class="bi bi-book-half me-1"></i>Manajemen Buku
+                        <li className="nav-item">
+                            <Link to="/manajemen-buku" className="nav-link">
+                                <i className="bi bi-book-half me-1"></i>Manajemen Buku
                             </Link>
                         </li>
                     </ul>
