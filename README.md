@@ -57,38 +57,38 @@
 ## Database
 1. Open the ``` MongoDB ``` application, then click the ``` Add new connection ``` button.
    
-   <table><tr><td width="810">   
+   <table><tr><td width="810" align="center">   
       <img src="documentation/Add Connection Part 1.jpg" alt="add-connection-part1">
    </td></tr></table><br>
 
 2. Create a connection with any name (free), for example as shown in the following image:
    
-   <table><tr><td width="810">   
-      <img src="documentation/Add Connection MongoDB.jpg" alt="add-connection-part2">
+   <table><tr><td width="810" align="center">   
+      <img src="documentation/Add Connection Part 2.jpg" alt="add-connection-part2">
    </td></tr></table><br>
 
 3. Click the ``` Create database ``` button.
    
-   <table><tr><td width="810">   
+   <table><tr><td width="810" align="center">   
       <img src="documentation/Create Database Part 1.jpg" alt="create-database-part1">
    </td></tr></table><br>
 
 
 4. Please name the ``` database ``` and ``` collection ``` as follows:
    
-   <table><tr><td width="810">
+   <table><tr><td width="810" align="center">
       <img src="documentation/Create Database Part 2.jpg" alt="create-database-part2">
    </td></tr></table><br>
 
 5. Click the ``` Import data ``` button.
    
-   <table><tr><td width="810">   
+   <table><tr><td width="810" align="center">   
       <img src="documentation/Import Data Part 1.jpg" alt="import-data-part1">
    </td></tr></table><br>
 
 6. Look for the file called ``` db_bookshelf_react.catalog.json ```, it is located in the ``` bookshelf-react/public/database ``` directory.<br>
 
-   <table><tr><td width="810">
+   <table><tr><td width="810" align="center">
       <img src="documentation/Import Data Part 2.jpg" alt="import-data-part2">
    </td></tr></table>
 

@@ -57,37 +57,37 @@
 ## Basis Data
 1. Buka aplikasi ``` MongoDB ```, lalu klik tombol ``` Add new connection ```.
    
-   <table><tr><td width="810">   
+   <table><tr><td width="810" align="center">   
       <img src="documentation/Add Connection Part 1.jpg" alt="add-connection-part1">
    </td></tr></table><br>
 
 2. Buat koneksi dengan nama apa pun (bebas), misalnya seperti yang ditunjukkan pada gambar berikut:
    
-   <table><tr><td width="810">   
+   <table><tr><td width="810" align="center">   
       <img src="documentation/Add Connection Part 2.jpg" alt="add-connection-part2">
    </td></tr></table><br>
 
 3. Klik tombol ``` Create database ```.
    
-   <table><tr><td width="810">   
+   <table><tr><td width="810" align="center">   
       <img src="documentation/Create Database Part 1.jpg" alt="create-database-part1">
    </td></tr></table><br>
 
 4. Silakan beri nama ``` database ``` dan ``` collection ``` sebagai berikut:
    
-   <table><tr><td width="810">
+   <table><tr><td width="810" align="center">
       <img src="documentation/Create Database Part 2.jpg" alt="create-database-part2">
    </td></tr></table><br>
 
 5. Klik tombol ``` Import data ```.
    
-   <table><tr><td width="810">   
+   <table><tr><td width="810" align="center">   
       <img src="documentation/Import Data Part 1.jpg" alt="import-data-part1">
    </td></tr></table><br>
 
 6. Cari berkas yang bernama ``` db_bookshelf_react.catalog.json ```, berkas ini terletak di direktori ``` bookshelf-react/public/database ```.<br>
 
-   <table><tr><td width="810">
+   <table><tr><td width="810" align="center">
       <img src="documentation/Import Data Part 2.jpg" alt="import-data-part2">
    </td></tr></table>
 
