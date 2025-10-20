@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 function Beranda() {
     return (
-        <main>
+        <section id="home-page">
             <div class="home-container">
                 <div class="home-text user-select-none">
                     <h1>Selamat Datang di <span>Bookshelf-React</span></h1>
@@ -235,7 +235,7 @@ function Beranda() {
                     }
                 `}
             </style>
-        </main>
+        </section>
     );
 }
 

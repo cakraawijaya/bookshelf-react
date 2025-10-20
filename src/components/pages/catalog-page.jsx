@@ -15,7 +15,7 @@ function Katalog({ bookList }) {
   }, [searchQuery, bookList]);
 
   return (
-    <main>
+    <section id="catalog-page">
       <div className={`container katalog-container mt-3 mb-3`}>
         <h1 className={`katalog-title mb-3 user-select-none`}>
           Katalog Buku
@@ -262,7 +262,7 @@ function Katalog({ bookList }) {
           }
         `}
       </style>
-    </main>
+    </section>
   );
 }
 

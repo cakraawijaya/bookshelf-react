@@ -54,19 +54,27 @@ function App() {
   }
 
   return (
-    <div>
+    <div className="app-container">
       <BrowserRouter>
-      <Navbar />
-      <Routes>
-        <Route path="/" exact element={ <Beranda /> } />
-        <Route path="/katalog" exact element={ <Katalog bookList={books} /> } />
-        <Route path="/manajemen-buku" exact element={ <ManajemenBuku bookList={books} store={storeData} update={updateData} remove={deleteData} /> } />
-      </Routes>
+        <Navbar />
+        <main>
+          <Routes>
+            <Route path="/" exact element={ <Beranda /> } />
+            <Route path="/katalog" exact element={ <Katalog bookList={books} /> } />
+            <Route path="/manajemen-buku" exact element={ <ManajemenBuku bookList={books} store={storeData} update={updateData} remove={deleteData} /> } />
+          </Routes>
+        </main>
       <Footer />
       </BrowserRouter>
 
       <style>
         {`
+          .app-container {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+          }
+
           main {
             padding: 60px;
             flex: 1;

@@ -52,7 +52,7 @@ function ManajemenBuku({ bookList, store, update, remove }) {
   }
 
   return (
-    <main>
+    <section id="management-page">
       <div className={`container manajemen-container mt-3 mb-3`}>
         <h1 className={`manajemen-title mb-3 user-select-none`}>
           Manajemen Buku
@@ -616,7 +616,7 @@ function ManajemenBuku({ bookList, store, update, remove }) {
           }
         `}
       </style>
-    </main>
+    </section>
   );
 }
 
