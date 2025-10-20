@@ -234,7 +234,9 @@ function ManajemenBuku({ bookList, store, update, remove }) {
                 <th className="align-middle text-center">Judul Buku</th>
                 <th className="align-middle text-center">Pengarang</th>
                 <th className="align-middle text-center">Tahun</th>
-                <th className="align-middle text-center">Aksi</th>
+                {filteredBooks.length > 0 && (
+                  <th className="align-middle text-center">Aksi</th>
+                )}
               </tr>
             </thead>
             <tbody>
@@ -262,7 +264,7 @@ function ManajemenBuku({ bookList, store, update, remove }) {
                 ))
               ) : (
                 <tr>
-                  <td colSpan="4" className="align-middle text-center text-muted">
+                  <td colSpan="3" className="align-middle text-center text-muted">
                     Tidak ada data ditemukan...
                   </td>
                 </tr>
